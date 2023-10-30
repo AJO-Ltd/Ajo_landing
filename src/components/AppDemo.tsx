@@ -247,15 +247,7 @@ export function AppDemo() {
             </div>
           </div>
         </div>
-      </AppScreen.Body> */}
-      {/* <Image src='simages/HeroAppDemo.png' className='w-full h-full' alt='appdemo'/> */}
-      {/* <Image
-      src="/images/HeroAppDemo.png"
-      width={672}
-      height={500}
-      alt="Picture of the author"
-    /> */}
-      
+      </AppScreen.Body>       */}
     </AppScreen>
   )
 }
