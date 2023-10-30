@@ -1,6 +1,8 @@
 import { AppStoreLink } from '@/components/AppStoreLink'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
+import { Button } from './Button'
+import { TextField } from './Fields'
 
 export function CallToAction() {
   return (
@@ -14,15 +16,39 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-md sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-white sm:text-4xl">
-            Get your first tips today
+            Join Our Exclusive Waitlist
           </h2>
           <p className="mt-4 text-lg text-gray-300">
-            It takes 30 seconds to sign up. Download the app and create an
-            account today and we’ll send you a tip guaranteed to double your
-            first investment.
+            Be the first to experience the future of student entrepreneurship. Reserve your spot today!
           </p>
           <div className="mt-8 flex justify-center">
-            <AppStoreLink color="white" />
+            <div className="w-96 h-7 px-40 justify-center items-start gap-3 inline-flex">
+
+              <div className="">
+                <TextField
+                  type="email"
+                  aria-label="Email address"
+                  placeholder="Email address"
+                  autoComplete="email"
+                  required
+                  className="w-60 min-w-0 shrink"
+                />
+              </div>
+
+              <div className="bg-orange-500 rounded-lg flex-col justify-start items-start inline-flex">
+                <div className="px-2 py-1 justify-start items-start gap-2.5 inline-flex">
+                  <Button className=" bg-orange-500 whitespace-nowrap text-center text-white text-sm font-medium font-['League Spartan'] leading-tight" href='#'>Join the waitlist!</Button>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="w-64 h-7 pl-5 pr-4 py-3 bg-neutral-50 rounded-md border border-zinc-200 justify-start items-center gap-2.5 inline-flex">
+              <div className="grow shrink basis-0 h-6 justify-start items-center gap-28 flex">
+                <div className="text-gray-400 text-base font-normal font-['League Spartan'] leading-normal">email@example.com</div>
+              </div>
+            </div> */}
+
+            {/* <AppStoreLink color="white" /> */}
           </div>
         </div>
       </Container>

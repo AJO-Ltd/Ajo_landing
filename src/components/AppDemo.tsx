@@ -5,6 +5,7 @@ import clsx from 'clsx'
 import { motion, useInView, useMotionValue } from 'framer-motion'
 
 import { AppScreen } from '@/components/AppScreen'
+import Image from 'next/image'
 
 const prices = [
   997.56, 944.34, 972.25, 832.4, 888.76, 834.8, 805.56, 767.38, 861.21, 669.6,
@@ -173,7 +174,7 @@ export function AppDemo() {
 
   return (
     <AppScreen>
-      <AppScreen.Body>
+      {/* <AppScreen.Body>
         <div className="p-4">
           <div className="flex gap-2">
             <div className="text-xs leading-6 text-gray-500">
@@ -246,7 +247,15 @@ export function AppDemo() {
             </div>
           </div>
         </div>
-      </AppScreen.Body>
+      </AppScreen.Body> */}
+      {/* <Image src='simages/HeroAppDemo.png' className='w-full h-full' alt='appdemo'/> */}
+      {/* <Image
+      src="/images/HeroAppDemo.png"
+      width={672}
+      height={500}
+      alt="Picture of the author"
+    /> */}
+      
     </AppScreen>
   )
 }

@@ -4,39 +4,39 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'IRL Hotspot Service',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Efficient package drop-off and pickup.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Effortless Brand Management',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'Effortlessly manage multiple brands under a single account, with seamless transitions.',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Support When You Need It',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'Access support and abundant resources whenever you require assistance',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Profit from your network',
+    name: 'Earn Rewards for Engagement',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Earn rewards for purchases and interactions, enhancing your experience',
     icon: DeviceListIcon,
   },
   {
-    name: 'Encrypted and anonymized',
+    name: 'Protecting Your Brand and Data',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'Experience peace of mind with our comprehensive security measures and data privacy protections.',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Portfolio tracking',
+    name: 'Data-Driven Decision Making',
     description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
+      'Access data-driven insights to inform your brand strategy effectively.',
     icon: DeviceChartIcon,
   },
 ]
@@ -196,11 +196,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+          Unlock the Power of Our Platform
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+          Explore the Features That Make Entrepreneurship Effortless and Secure.
           </p>
         </div>
         <ul

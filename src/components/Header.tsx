@@ -64,7 +64,7 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-6">
-            <Popover className="lg:hidden">
+            {/* <Popover className="lg:hidden">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -126,12 +126,12 @@ export function Header() {
                   </AnimatePresence>
                 </>
               )}
-            </Popover>
-            <Button href="/login" variant="outline" className="hidden lg:block">
+            </Popover> */}
+            {/* <Button href="/login" variant="outline" className="hidden lg:block">
               Log in
-            </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
+            </Button> */}
+            <Button href="#" className="bg-pink-900">
+              Join Newsletter
             </Button>
           </div>
         </Container>

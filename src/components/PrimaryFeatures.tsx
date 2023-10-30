@@ -37,23 +37,24 @@ interface CustomAnimationProps {
 
 const features = [
   {
-    name: 'Invite friends for better returns',
+    name: 'Stay Connected and Inspired',
     description:
-      'For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
+      'Engage with a vibrant community of student entrepreneurs. Share insights, discover trends, and collaborate with like-minded individuals. Our social feed is your gateway to staying connected and inspired.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
   {
-    name: 'Notifications on stock dips',
+    name: 'Discover Student Brands & Innovators',
     description:
-      'Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
+    `Get a push notification every time we find out something that’s going to
+    lower the share price on your holdings so you can sell before the
+    information hits the public markets.`,
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
   {
-    name: 'Invest what you want',
-    description:
-      'We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.',
+    name: 'Shop Student-Curated Creations',
+    description: `Discover a marketplace featuring a mix of student-crafted items and curated collections, carefully selected by fellow students. Support student entrepreneurs and explore a world of unique products.`,
     icon: DeviceTouchIcon,
     screen: InvestScreen,
   },
@@ -449,7 +450,7 @@ function FeaturesDesktop() {
           <CircleBackground color="#13B5C8" className="animate-spin-slower" />
         </div>
         <PhoneFrame className="z-10 mx-auto w-full max-w-[366px]">
-          <Tab.Panels as={Fragment}>
+          {/* <Tab.Panels as={Fragment}>
             <AnimatePresence
               initial={false}
               custom={{ isForwards, changeCount }}
@@ -469,7 +470,7 @@ function FeaturesDesktop() {
                 ) : null,
               )}
             </AnimatePresence>
-          </Tab.Panels>
+          </Tab.Panels> */}
         </PhoneFrame>
       </div>
     </Tab.Group>
@@ -577,20 +578,17 @@ export function PrimaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you need to win. Try it for yourself.
+          <h2 className="text-3xl font-medium tracking-tight text-white whitespace-nowrap">
+          Empowering Student Entrepreneurs with Key Features
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
-            and aren’t going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
-            it.
+          Empowering the Next Generation of Student Entrepreneurs with Innovative Features and Boundless Opportunities to Turn Dreams into Reality.
           </p>
         </div>
       </Container>
-      <div className="mt-16 md:hidden">
+      {/* <div className="mt-16 md:hidden">
         <FeaturesMobile />
-      </div>
+      </div> */}
       <Container className="hidden md:mt-20 md:block">
         <FeaturesDesktop />
       </Container>
