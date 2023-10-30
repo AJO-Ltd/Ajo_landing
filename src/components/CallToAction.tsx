@@ -35,10 +35,8 @@ export function CallToAction() {
                 />
               </div>
 
-              <div className="bg-orange-500 rounded-lg flex-col justify-start items-start inline-flex">
-                <div className="px-2 py-1 justify-start items-start gap-2.5 inline-flex">
-                  <Button className=" bg-orange-500 whitespace-nowrap text-center text-white text-sm font-medium font-['League Spartan'] leading-tight" href='#'>Join the waitlist!</Button>
-                </div>
+              <div className="">
+                  <Button className="py-3 bg-orange-500 whitespace-nowrap text-center text-white text-sm font-medium font-['League Spartan'] leading-tight" href='#'>Join the waitlist!</Button>
               </div>
             </div>
 
