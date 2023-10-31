@@ -30,7 +30,7 @@ export default function RootLayout({
       className={clsx('h-full bg-gray-50 antialiased', inter.variable)}
     >
       <head>
-        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="ajo.png"/>
       </head>
       <body className="flex h-full flex-col">
         <div className="flex min-h-full flex-col">{children}</div>
