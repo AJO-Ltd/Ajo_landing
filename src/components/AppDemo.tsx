@@ -174,6 +174,7 @@ export function AppDemo() {
 
   return (
     <AppScreen>
+      
       {/* <AppScreen.Body>
         <div className="p-4">
           <div className="flex gap-2">

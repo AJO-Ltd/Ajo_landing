@@ -50,12 +50,7 @@ export function AppScreen({
   ...props
 }: React.ComponentPropsWithoutRef<'div'>) {
   return (
-    <div className={clsx('flex flex-col', className)} {...props}>
-      {/* <div className="flex justify-between px-4 pt-4">
-        <MenuIcon className="h-6 w-6 flex-none" />
-        <Logo className="h-6 flex-none" />
-        <UserIcon className="h-6 w-6 flex-none" />
-      </div> */}
+    <div>
       {children}
     </div>
   )
@@ -101,7 +96,7 @@ AppScreen.Body = forwardRef<
   return (
     <div
       ref={ref}
-      className={clsx('mt-6 flex-auto rounded-t-2xl bg-white', className)}
+      className={clsx('mt-6 flex-auto rounded-t-2xl bg-none', className)}
     >
       {children}
     </div>
