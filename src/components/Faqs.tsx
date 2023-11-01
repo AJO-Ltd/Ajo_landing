@@ -47,7 +47,7 @@ const faqs = [
         'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
     },
     {
-      question: 'How do I become an insider ?',
+      question: 'How do I become an insider?',
       answer:
         'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
     },
