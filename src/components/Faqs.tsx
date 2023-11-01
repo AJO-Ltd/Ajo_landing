@@ -3,53 +3,53 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'What is AJO? ',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'Ajo is a centralized platform for university students to get all their needs. From sharing pictures and interacting, to purchasing and selling products online.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'What are AJO tokens?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'These are tokens earned from users interacting with your brand-related posts. These tokens can be used to get discounts/rewards from the tagged brands.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'Can I pay for products on AJO?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        'Yes, you can purchase products directly on the platform using your wallet. When you create an account on AJO, you get assigned a wallet, that wallet can then be used to make purchases.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: 'How can I top up my wallet?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        'You can top up your wallet through peer-to-peer transfers, or visit Christex foundation at FBC to topup your wallet.',
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: 'How can I get my products after purchasing?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'Products can be collected at hotspot locations, or via delivery by brand owners.',
     },
     {
-      question: 'How do I become an insider?',
+      question: 'Can anyone create a brand?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Yes, any student can create a brand. However, student brands can get verified after going through the verification process.',
+    },
+  ],
+  [
+    {
+      question: 'How do I earn AJO tokens?',
+      answer:
+        'When you purchase a product from a brand, post a photo of you using the product or of the product, the number of likes you get, determine the number of Ajo tokens you receive from that post.',
+    },
+    {
+      question: 'Can I withdraw AJO tokens for cash?',
+      answer:
+        'No, AJO tokens can only be used to get discounts and rewards from brands.',
+    },
+    {
+      question: 'Do I have to pay to create a brand?',
+      answer:
+        "No, you don't have to pay to create a brand. Creating a brand is free.",
     },
   ],
 ]
@@ -72,7 +72,7 @@ export function Faqs() {
           <p className="mt-2 text-lg text-gray-600">
             If you have anything else you want to ask,{' '}
             <a
-              href="mailto:info@example.com"
+              href="#"
               className="text-gray-900 underline"
             >
               reach out to us
