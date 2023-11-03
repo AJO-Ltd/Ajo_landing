@@ -17,7 +17,7 @@ import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
 // //////////////////////////////////////////////////////////////////////////////////
 // images belowe
-import Image from 'next/image';
+import Image from 'next/image'
 import primaryFeatures1 from '@/images/PrimaryFeatures1.png'
 import primaryFeatures2 from '@/images/PrimaryFeatures2.png'
 import primaryFeatures3 from '@/images/PrimaryFeatures3.png'
@@ -53,8 +53,7 @@ const features = [
   },
   {
     name: 'Discover Student Brands & Innovators',
-    description:
-      `Get a push notification every time we find out something that’s going to
+    description: `Get a push notification every time we find out something that’s going to
     lower the share price on your holdings so you can sell before the
     information hits the public markets.`,
     icon: DeviceNotificationIcon,
@@ -194,9 +193,9 @@ const bodyAnimation: MotionProps = {
 
 type ScreenProps =
   | {
-    animated: true
-    custom: CustomAnimationProps
-  }
+      animated: true
+      custom: CustomAnimationProps
+    }
   | { animated?: false }
 
 function InviteScreen(props: ScreenProps) {
@@ -217,6 +216,8 @@ function InviteScreen(props: ScreenProps) {
             src={primaryFeatures1}
             alt=""
             className="pointer-events-none w-full"
+            width={200}
+            height={200}
           />
         </div>
       </MotionAppScreenBody>
@@ -464,11 +465,13 @@ export function PrimaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium tracking-tight text-white whitespace-nowrap">
+          <h2 className="whitespace-nowrap text-3xl font-medium tracking-tight text-white">
             Empowering Student Entrepreneurs with Key Features
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Empowering the Next Generation of Student Entrepreneurs with Innovative Features and Boundless Opportunities to Turn Dreams into Reality.
+            Empowering the Next Generation of Student Entrepreneurs with
+            Innovative Features and Boundless Opportunities to Turn Dreams into
+            Reality.
           </p>
         </div>
       </Container>
