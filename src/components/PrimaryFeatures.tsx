@@ -216,8 +216,6 @@ function InviteScreen(props: ScreenProps) {
             src={primaryFeatures1}
             alt=""
             className="pointer-events-none w-full"
-            width={200}
-            height={200}
           />
         </div>
       </MotionAppScreenBody>
