@@ -18,9 +18,9 @@ import { Container } from '@/components/Container'
 // //////////////////////////////////////////////////////////////////////////////////
 // images belowe
 import Image from 'next/image'
-import primaryFeatures1 from '@/images/PrimaryFeatures1.png'
-import primaryFeatures2 from '@/images/PrimaryFeatures2.png'
-import primaryFeatures3 from '@/images/PrimaryFeatures3.png'
+import primaryFeatures1 from '../images/primaryFeatures1.png'
+import primaryFeatures2 from '../images/primaryFeatures2.png'
+import primaryFeatures3 from '../images/primaryFeatures3.png'
 
 // ///////////////////////////////////////////////////////////////////////////////////////
 import { PhoneFrame } from '@/components/PhoneFrame'
