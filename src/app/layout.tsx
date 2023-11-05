@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: 'AJO',
   },
   description:
-    'A centralised hub for students to get all their needs in one place',
+    'Providing a centralised hub for students to get all their needs in one place',
 }
 
 export default function RootLayout({
@@ -31,7 +31,6 @@ export default function RootLayout({
     >
       <head>
         <link rel="icon" type="image/x-icon" href="ajo.png" />
-        <img src="/app/ajo.png" />
       </head>
       <body className="flex h-full flex-col">
         <div className="flex min-h-full flex-col">{children}</div>
