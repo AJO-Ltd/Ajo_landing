@@ -235,11 +235,13 @@ function StocksScreen(props: ScreenProps) {
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
       >
-        <div className="">
+        <div className="item-center">
           <Image
             src={primaryFeatures2}
             alt=""
             className="pointer-events-none w-full"
+            width={300}
+            height={300}
           />
         </div>
       </MotionAppScreenBody>
@@ -264,6 +266,8 @@ function InvestScreen(props: ScreenProps) {
             src={primaryFeatures3}
             alt=""
             className="pointer-events-none w-full"
+            width={300}
+            height={300}
           />
         </div>
       </MotionAppScreenBody>
