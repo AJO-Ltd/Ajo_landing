@@ -463,7 +463,7 @@ export function PrimaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="whitespace-nowrap text-3xl font-medium tracking-tight text-white">
+          <h2 className="text-3xl font-medium tracking-tight text-white">
             Empowering Student Entrepreneurs with Key Features
           </h2>
           <p className="mt-2 text-lg text-gray-400">

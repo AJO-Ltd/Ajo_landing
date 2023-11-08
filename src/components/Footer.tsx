@@ -61,30 +61,72 @@ export function Footer() {
           </div>
           <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
             {/* remove this qrcode */}
-            <form
-              onSubmit={subscribeUser}
-              className="flex w-full justify-center md:w-auto"
-            >
-              <TextField
-                type="email"
-                aria-label="Email address"
-                placeholder="Email address"
-                autoComplete="email"
-                required
-                Ref={inputRef}
-                className="w-60 min-w-0 shrink"
-                autoCapitalize="off"
-                autoCorrect="off"
-              />
-              <Button
-                type="submit"
-                color="cyan"
-                className="ml-4 flex-none bg-pink-900"
-              >
-                <span className="hidden lg:inline">Join our newsletter</span>
-                <span className="lg:hidden">Join newsletter</span>
-              </Button>
-            </form>
+            <div id="mc_embed_shell">
+              <link
+                href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
+                rel="stylesheet"
+                type="text/css"
+              ></link>
+
+              <div id="mc_embed_signup">
+                <form
+                  action="https://gmail.us21.list-manage.com/subscribe/post?u=70997f5186117f17b86b02a23&amp;id=445c74c281&amp;f_id=00cae9e6f0"
+                  method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                  className="validate"
+                  target="_blank"
+                >
+                  <div id="mc_embed_signup_scroll">
+                    <h2>Subscribe</h2>
+                    <div className="indicates-required">
+                      <span className="asterisk">*</span> indicates required
+                    </div>
+                    <div className="mc-field-group">
+                      <label htmlFor="mce-EMAIL">
+                        Email Address <span className="asterisk">*</span>
+                      </label>
+                      <input
+                        type="email"
+                        name="EMAIL"
+                        className="required email"
+                        id="mce-EMAIL"
+                        required
+                        value=""
+                      ></input>
+                      <span
+                        id="mce-EMAIL-HELPERTEXT"
+                        className="helper_text"
+                      ></span>
+                    </div>
+                    <div id="mce-responses" className="clear foot">
+                      <div className="response" id="mce-error-response"></div>
+                      <div className="response" id="mce-success-response"></div>
+                    </div>
+                    <div aria-hidden="true">
+                      /* real people should not fill this in and expect good
+                      things - do not remove this or risk form bot signups */
+                      <input
+                        type="text"
+                        name="b_70997f5186117f17b86b02a23_445c74c281"
+                        value=""
+                      ></input>
+                    </div>
+                    <div className="optionalParent">
+                      <div className="clear foot">
+                        <input
+                          type="submit"
+                          name="subscribe"
+                          id="mc-embedded-subscribe"
+                          className="button"
+                          value="Subscribe"
+                        ></input>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center border-t border-gray-200 pb-12 pt-8 md:flex-row-reverse md:pt-6">
