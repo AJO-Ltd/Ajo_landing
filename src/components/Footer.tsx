@@ -71,7 +71,6 @@ export function Footer() {
                 placeholder="Email address"
                 autoComplete="email"
                 required
-                Ref={inputRef}
                 className="w-60 min-w-0 shrink"
                 autoCapitalize="off"
                 autoCorrect="off"

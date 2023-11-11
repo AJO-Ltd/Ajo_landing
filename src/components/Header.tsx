@@ -130,8 +130,11 @@ export function Header() {
             {/* <Button href="/login" variant="outline" className="hidden lg:block">
               Log in
             </Button> */}
-            <Button href="#" className="bg-pink-900">
-              Join Newsletter
+            <Button
+              href="https://docs.google.com/forms/d/e/1FAIpQLScj72CYByyIZFmV8fGW_4_v5FvfF815FgjBHwaWUsy4ZNkGRA/viewform?usp=sf_link"
+              className="bg-pink-900"
+            >
+              Join the waitlist
             </Button>
           </div>
         </Container>
