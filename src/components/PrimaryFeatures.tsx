@@ -211,13 +211,13 @@ function InviteScreen(props: ScreenProps) {
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
       >
-        {/* <div className="">
-          <Image
+        <div className="">
+          {/* <Image
             src={primaryFeatures1}
             alt=""
             className="pointer-events-none w-full"
-          />
-        </div> */}
+          /> */}
+        </div>
       </MotionAppScreenBody>
     </AppScreen>
   )
