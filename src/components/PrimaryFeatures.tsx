@@ -216,6 +216,8 @@ function InviteScreen(props: ScreenProps) {
             src={primaryFeatures1}
             alt=""
             className="pointer-events-none w-full"
+            width={500}
+            height={500}
           />
         </div>
       </MotionAppScreenBody>
@@ -238,6 +240,8 @@ function StocksScreen(props: ScreenProps) {
             src={primaryFeatures2}
             alt=""
             className="pointer-events-none w-full"
+            width={500}
+            height={500}
           />
         </div>
       </MotionAppScreenBody>
@@ -262,6 +266,8 @@ function InvestScreen(props: ScreenProps) {
             src={primaryFeatures3}
             alt=""
             className="pointer-events-none w-full"
+            width={500}
+            height={500}
           />
         </div>
       </MotionAppScreenBody>
