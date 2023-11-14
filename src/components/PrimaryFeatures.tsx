@@ -211,7 +211,7 @@ function InviteScreen(props: ScreenProps) {
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
       >
-        <div className="">
+        <div>
           <Image
             src={primaryFeatures1}
             alt=""
@@ -235,7 +235,7 @@ function StocksScreen(props: ScreenProps) {
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
       >
-        <div className="">
+        <div>
           <Image
             src={primaryFeatures2}
             alt=""
@@ -261,7 +261,7 @@ function InvestScreen(props: ScreenProps) {
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
       >
-        <div className="">
+        <div>
           <Image
             src={primaryFeatures3}
             alt=""
