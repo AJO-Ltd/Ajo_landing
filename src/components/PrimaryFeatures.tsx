@@ -233,7 +233,7 @@ function StocksScreen(props: ScreenProps) {
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
       >
-        <div className="item-center">
+        <div className="">
           <Image
             src={primaryFeatures2}
             alt=""
